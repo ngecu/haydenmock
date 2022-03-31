@@ -318,15 +318,14 @@ width: 20%;
 li{
   text-transform: uppercase;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-weight: bold;
 }
-// a {
-//   padding: 8px 8px 8px 32px;
-//   text-decoration: none;
-//   font-size: 25px;
-//   color: black;
-//   display: block;
-//   transition: 0.3s;
-// }
+a {
+  text-transform: uppercase;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-weight: bold;
+}
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -463,4 +462,11 @@ footer{
 
 .m-2{
   margin-top: 20%;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+a{
+  text-decoration: none;
 }
